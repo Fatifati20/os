@@ -56,11 +56,11 @@ a{
 }
 @media (max-width: 900px){
     .name div{
-        width: 145px;
+        width: 135px;
         height: 40px;
         background-color: #f2e205;
         display: inline-block;
-         margin-left: 22px;
+         margin-left: 20px;
         
     }
     .name div h3{
