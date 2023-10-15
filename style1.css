@@ -54,7 +54,7 @@ a{
     background-color: white;
     place-content: center;
 }
-@media (max-width: 1800px){
+@media (max-width: 900px){
     .name div{
         width: 145px;
         height: 40px;
