@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    justify-content: center;
+    background-color: rgb(0, 255, 187);
+}
+.skills{
+    margin-top: 20px;
+    position: relative;
+    right: 90px;
+    background-color: black;
+    max-width: 500px;
+    padding: 10px;
+    margin-left: 30%;
+    border: 2px solid;
+    
+   
+    
+}
+.skill-name{
+    text-transform: uppercase;
+    color: aliceblue;
+    
+}
+.skill-bar{
+    height: 14px;
+    
+    border-radius: 3px;
+}
+.skill-per{
+    height: 14px;
+    background-color: rgba(255, 255, 0, 0.93);
+    border-radius: 3px;
+    max-width: 95%;
+    
+}
+.Samsung{
+background-color: rgb(49, 195, 231);
+border: 1px solid black;
+text-align: center;
+
+}
+.skill-per::before{
+content: attr(per);
+position: absolute;
+padding: 2px 3px;
+background-color: white;
+border-radius: 4px;
+font-size: 1.2rem;
+right: 30px;
+margin-top: -15px;
+}
+.DPI{
+    display: flex;
+    border: 2px solid rgb(16, 113, 58);
+    text-align: center;
+    width: 150px;
+    justify-content: center;
+    margin-left: 88.5%;
+    margin-top: 5px;
+    border-radius: 50px;
+    color: black;
+    background-color: rgb(47, 92, 255);
+    text-transform: capitalize;
+  
+}
+
